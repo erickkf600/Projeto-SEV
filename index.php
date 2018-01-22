@@ -176,7 +176,7 @@ if (isset($_SESSION['usuario'])) {
 	</div>
 
   <div class="column-2" >
-    <a href="produtos/monitor.html">	
+    <a href="produtos/monitor.php">	
 			<img class="img-fluid" src="img/destaque/monitor.jpg"></a>
         	<p style="color: black">MONITOR ASUS 29 POL. 2560X1080 FULL HD, MX299Q<br><b class="w3-text-red">R$2.119,04</b></p>
         	<button class="btn btn-warning" type="button" href="#">Comprar</button>
