@@ -24,7 +24,7 @@
 
  <div class="header">
   <a href="../index.php">
-      <img class="logo" src="css/LOGO.png" alt="logo"></a>
+      <img class="logo" src="../css/LOGO.png" alt="logo"></a>
    
  <!-- <ul class="menu-top">
   <li><a class="top" href="#"><i class="fa fa-user" aria-hidden="true"></i>  Login</a></li>
