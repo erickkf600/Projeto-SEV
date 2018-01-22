@@ -23,7 +23,7 @@
 <body class="body">
 
  <div class="header">
-  <a href="index.php">
+  <a href="../index.php">
       <img class="logo" src="../css/LOGO.png" alt="logo"></a>
    
   <!--<ul class="menu-top">
