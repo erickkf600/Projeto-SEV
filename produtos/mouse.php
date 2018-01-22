@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="../css/layout.css">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -23,10 +23,10 @@
 <body class="body">
 
  <div class="header">
-  <a href="index.html">
-      <img class="logo" src="css/LOGO.png" alt="logo"></a>
+  <a href="../index.php">
+      <img class="logo" src="../css/LOGO.png" alt="logo"></a>
    
-  <ul class="menu-top">
+  <!--<ul class="menu-top">
   <li><a class="top" href="#"><i class="fa fa-user" aria-hidden="true"></i>  Login</a></li>
   <li><a class="top" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Cadastro</a></li>
   <li><a class="top" href="#"><i class="fa fa-phone-square" aria-hidden="true"></i>Contato</a></li>
@@ -35,7 +35,7 @@
 
 <ul class="carrinho">
   <li><a href="#"><b>Carrinho</b>  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
- </ul>
+ </ul>-->
 </div>
 
 <div id="navbar">
@@ -116,7 +116,7 @@
 
 
 <div class="pag">
-	      <img class="img-fluid" src="img/paginas/mouse.jpg" alt="mouse"></a>
+	      <img class="img-fluid" src="../img/paginas/mouse.jpg" alt="mouse"></a>
           <p style="color: black">MOUSE GAMER LOGITECH G PRO LED RGB 12000DPI USB PRETO, 910-004873<br><b>R$209,91</b></p>
           <button class="btn btn-warning" type="button" href="#">Comprar</button>
           <button class="btn btn-outline-warning" type="button" href="#"><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i> Adicionar ao carrinho</button>
@@ -208,7 +208,7 @@
         <img src="img/foot/pay.png" alt="paypal"></a>
         
 </div> 
-<a href="index.html"><i class="fa fa-arrow-circle-up fa-5x" aria-hidden="true"></i></a>
+<a href="mouse.php"><i class="fa fa-arrow-circle-up fa-5x" aria-hidden="true"></i></a>
 </footer>
 
 
