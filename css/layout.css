@@ -1,0 +1,652 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  overflow:scroll;
+  overflow-x: hidden;
+}
+.body{
+      background-image: url(fundo2.jpg);
+}
+
+@media (max-width: 100%) {
+    body{
+        width: auto;
+        float: none;
+    }
+}
+.logo{
+    margin-left:-3%;
+
+}
+
+
+/*Menu do header*/
+ul.menu-top {
+    margin-top:-3.5%;
+    list-style-type: none;
+    margin-left: 30%;
+    padding:0% 12%;
+    overflow:hidden;
+    background-color: #b7b7b7;
+    width: 45%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+   display: block;
+}
+
+li a:hover {
+    text-decoration: none;
+    color:white;
+}
+/*Icones no header*/
+
+.top{
+    font-family: sans-serif;
+    font-size: 20px;
+    color:black;
+    margin-left: -6px;
+}
+
+.fa.fa-user{
+    margin-left: -5px;
+}
+.header {
+  background-color: #efeded;
+  padding: 30px;
+
+}
+
+
+/*Carrinho*/
+
+.carrinho{
+    font-size: 20px;
+    margin-top:-75px;
+    list-style-type: none;
+    margin-left:80%;
+    padding: 10px 0px 0px 0px;
+    overflow: hidden;
+    background-color: #b7b7b7;
+    width: 10%;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+
+}
+.carrinho a:hover{
+    color:black;
+}
+
+
+.fa.fa-shopping-cart{
+    margin-left: -1px;
+
+} 
+
+
+/*configurações da navbar*/
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  padding-top: 22px;
+}
+
+/* Menu Superior*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/*Menu lateral*/
+
+/*Departamentos*/
+
+ul.menu, .menu li, .menu a{
+    margin-top:3px;
+    list-style:none;
+
+}
+
+ul.menu ul{ 
+    position:absolute; 
+    display:none; 
+    box-shadow:1px 3px 2px #ffffff;
+
+}
+
+.menu{
+    background-color: #333;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family:Arial Rounded MT Bold;
+    text-decoration:none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display:block;
+
+
+}
+
+ul.menu{ 
+    margin-top:-15px;
+    margin-left: 0px;
+    overflow-x: 10px;
+    float:left; 
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:15px; 
+    border-radius:0px 30px 10px 0px; 
+    padding:0px; 
+    display: block;
+
+}
+
+.fa.fa-angle-down{
+    position: absolute;
+    margin-left:14.5%;
+    margin-top: 5px;
+}
+    
+.menu a{
+    color:#efefef;
+}
+ 
+.menu li:hover > a{ 
+    color: #ed5c5c;
+}
+
+
+/*Primeiro menu*/
+.menu li:hover > ul.submenu-1{ 
+    display:block;
+    margin-top:0px;
+    left:-5px;
+    padding:10px 50px; 
+    border-radius:0 0 30px 5px;
+    width: 20%;
+    position:fixed;
+    opacity: 0.9;
+
+}
+
+.menu ul.submenu-1 a{ 
+    display:inline-flex;
+    left:-5px;
+    padding:16px 0px;
+    margin-left: -20px; 
+    width:230px;
+    border: 0.5px solid #e85858;
+    border-right:0px;
+    border-left: 0px;
+    border-bottom: 0px;
+
+
+      
+}
+    /*Cores*/
+.submenu-1{
+    background:#c11717;   
+
+}
+
+.submenu-1 a{
+    color:#ffffff;
+
+
+}
+.submenu-1 li:hover > a{
+    background:#c11717;
+    color:#000000; 
+    transform: translateY(-0.5em);
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+
+    /*Segundo Menu*/ 
+    
+.menu li:hover > ul.submenu-2{
+    background-color:#c11717 ; 
+    display:block;
+    margin-top:-80px; 
+    left:260px;
+    padding:5px; 
+    width:100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.menu ul.submenu-2 a{
+    margin-left: 20px;
+    display:block;
+    width: 230px;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+    /*Cores*/
+
+.submenu-2 a{
+    color:#ffffff;
+}
+.submenu-2 li:hover > a{
+    background:#c11717;
+    color:#000000;  
+}
+
+
+/*Ajuste do menu rede*/
+
+.menu li:hover > ul.ajuste{                                
+    background-color:#c11717 ; 
+    display:block;
+    margin-top:-120px; 
+    left:260px;
+    padding:5px; 
+    width:100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.menu ul.ajuste a{
+    margin-left: 20px;
+    display:block;
+    width: 230px;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+/*Ajuste do menu cadeiras e mesas*/
+
+.menu li:hover > ul.ajuste-2{                                
+    background-color:#c11717 ; 
+    display:block;
+    margin-top:-120px; 
+    left:260px;
+    padding:5px; 
+    width:100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.menu ul.ajuste-2 a{
+    margin-left: 20px;
+    display:block;
+    width: 230px;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+/*Ajuste do menu mundo geek*/
+.menu li:hover > ul.ajuste-3{                                
+    background-color:#c11717 ; 
+    display:block;
+    margin-top:-160px; 
+    left:260px;
+    padding:5px; 
+    width:100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.menu ul.ajuste-3 a{
+    margin-left: 20px;
+    display:block;
+    width: 230px;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+
+
+/*Barra de busca*/
+.pesquisar[type=text] {
+    width: 70%;
+    box-sizing:none;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 10px 40px;
+    margin-left: 300px;
+    margin-top:-5px;
+    position: absolute;
+  
+
+}
+
+.pesquisar{
+    background-image: url(lupa.png);
+    background-position: 5px
+}
+
+
+/**********CORPO DO SITE*************/
+
+
+
+
+/*Redes Sociais*/
+
+
+#mySidenav a {
+    position:absolute;
+    right: -105px;
+    margin-top:54%;
+    transition: 0.3s;
+    padding: 15px;
+    width: 145px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#mySidenav a:hover {
+    right: 0px;
+}
+
+/*Facebook*/
+.face {
+    top: 30px;
+    background-color: #4e9fe0;
+
+}
+
+.fa.fa-facebook-official{
+    float: left;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+    /*Twitter*/
+.twit {
+   
+    top: 92px;
+    background-color:#71b3e8;
+}
+.fa.fa-twitter-square{
+    float: left;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+    /*Instagram*/
+
+.inst {
+   
+    top: 154px;
+    background-color: #edb55c;
+}
+
+.fa.fa-instagram{
+    float: left;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+    /*Youtube*/
+.you {
+   
+    top: 216px;
+    background-color: #f44336;
+}
+.fa.fa-youtube-play{
+    float: left;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+
+/*Botões "comprar"*/
+.btn.btn-warning{
+    cursor: pointer;
+    color: #000000;
+    background-color: #f2ca00;
+
+}
+
+.btn.btn-warning{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn.btn-warning:hover {
+    background-color:#c11717; 
+    color: white;
+     box-shadow: 0px 9px 16px 0px rgba(0,0,0,0.2);
+}
+
+.btn.btn-warning{
+    padding: 5px 40px;
+}
+
+
+/*Botoões ad ao carrinho*/
+.btn.btn-outline-warning{
+    cursor: pointer;
+    color: #000000;
+}
+
+.btn.btn-outline-warning{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn.btn-outline-warning:hover {
+    background-color: #c11717; 
+    color: white;
+     box-shadow: 0px 9px 16px 0px rgba(0,0,0,0.2);
+}
+
+.btn.btn-outline-warning{
+    padding: 5px 5px;
+    margin-color:#f2ca00;
+
+}
+
+
+/*Produtos em destaque*/
+
+
+h2{
+    font-family:fantasy;
+    font-size: 28px;
+    text-align: left;
+    padding:32px;
+    padding-top: 50px;
+    margin-left:280px;
+    margin-top: -150px;
+}
+
+
+.column {
+    border: 0.5px solid #dbdbdb;
+    margin-left:300px;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    background-color: white;
+}
+
+.column-2{
+    border: 0.5px solid #dbdbdb;
+    border-left: 10px;
+    margin-left:0px;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    background-color: white;
+}
+
+
+
+.img-fluid{
+    margin-left:100px;
+
+
+}
+.img-fluid-1{
+    margin-left:50px;
+}
+ /*Paginas dos produtos*/
+.pag{
+    border: 0.5px solid #dbdbdb;  
+    margin-left:286px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 61.2%;
+    padding: 15px;
+    background-color: white;
+
+}
+
+/*Meneu lateral*/
+
+
+ul.menu ul{ 
+    position:absolute; 
+    display:none; 
+    box-shadow:1px 3px 2px #ffffff;
+}
+
+
+    /*Menu inferior*/
+
+.under{
+    list-style-type: none;
+    margin: 0px;
+    margin-left: 285px;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #c11717;
+    width:61.38%;
+    margin-top: 15px;
+
+}
+
+.barra{
+    float: left;
+
+}
+
+.barra a {
+    font-family: fantasy;
+    font-size: 18px;
+    font-weight:300;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 55px;
+    margin-left: 70px;
+}
+
+.barra a:hover{
+    left: 10px;
+    color: black;
+    text-decoration:none;
+}
+
+    /*segundo*/
+.email{
+    list-style-type: none;
+    font-family: fantasy;
+    font-weight:200;
+    margin: 0px;
+    margin-left: 285px;
+    margin-bottom: 30px;
+    padding: 7px 0px;
+    overflow: hidden;
+    background-color: #f20000;
+    width:61.38%;
+    background-color: #848484;
+    background-image: url(LOGO2.png);
+    background-repeat: no-repeat;
+    
+
+}
+
+    /*linhas digitaveis*/
+input[type=text] {
+    width: 26%;
+    padding: 4px 5px;
+    margin: 0px -280px;
+    margin-left: 30%;
+    box-sizing: border-box;
+    position: inherit;
+}
+
+    /*botão enviar*/
+.btn.btn-danger{
+    cursor: pointer;
+    border:none;
+    background-color: #c11717;
+    color: black;
+    margin-left:25%; 
+      
+}
+
+
+.btn.btn-danger:hover {
+    background-color: #d30e0e; 
+    color: white;
+    box-shadow: 0px 9px 16px 0px rgba(0,0,0,0.2);
+}
+
+.btn.btn-danger{
+    padding: 5px 25px;
+}
+
+
+
+/*Footer*/
+
+.down{
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 250px;
+    background-color:#c41313;
+}   
+
+.info{
+    float: left;
+    margin-top:10px;
+    margin-left: 12%;
+    color: #ffffff;
+ }
+.info ul a{
+    text-decoration:none;
+    color: white;
+
+}
+
+.info ul a:hover{
+    color:black;
+}
+
+.fa.fa-arrow-circle-up{
+    color:white;
+    padding-top: 80px;
+    margin-left: 45px;
+    padding-left: 410px;
+
+}
+
+.duv1{
+    margin-left:16%;
+}
+
+
+
+
