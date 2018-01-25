@@ -202,10 +202,10 @@
 <div class="info">
 
         <h4 >Formas de pagamento</h4>
-        <img src="img/foot/banc.png" alt="boleto"></a>
-        <img src="img/foot/vis.png" alt="visa"></a>
-        <img src="img/foot/maste.png" alt="master"></a>
-        <img src="img/foot/pay.png" alt="paypal"></a>
+        <img src="../img/foot/banc.png" alt="boleto"></a>
+        <img src="../img/foot/vis.png" alt="visa"></a>
+        <img src="../img/foot/maste.png" alt="master"></a>
+        <img src="../img/foot/pay.png" alt="paypal"></a>
         
 </div> 
 <a href="index.html"><i class="fa fa-arrow-circle-up fa-5x" aria-hidden="true"></i></a>
