@@ -54,7 +54,7 @@ if (isset($_SESSION['usuario'])) {
 
 
 <!--<ul class="carrinho">
-  <li><a href="#"><b>Carrinho</b>  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
+  <li><a href="carrinho"><b>Carrinho</b>  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
  </ul>-->
 
 </div>
