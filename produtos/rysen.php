@@ -26,17 +26,12 @@
   <a href="../index.php">
       <img class="logo" src="../css/LOGO.png" alt="logo"></a>
    
-  <ul class="menu-top">
-  <li><a class="top" href="login-usuario-2.0.php"><i class="fa fa-user" aria-hidden="true"></i>  Login</a></li>
-  <li><a class="top" href="cadastro-usuarios-2.0.php"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Cadastro</a></li>
-  <li><a class="top" href="contato.php"><i class="fa fa-phone-square" aria-hidden="true"></i> Contato</a></li>
-</ul>
+  
 
-  <ul class="carrinho">
+
+  <!--<ul class="carrinho">
     <li><a href="#"><b>Carrinho</b>  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
-  </ul>
-
-
+   </ul>-->
 </div>
 
 <div id="navbar">
@@ -203,10 +198,10 @@
 <div class="info">
 
         <h4 >Formas de pagamento</h4>
-        <img src="../img/foot/banc.png" alt="boleto"></a>
-        <img src="../img/foot/vis.png" alt="visa"></a>
-        <img src="../img/foot/maste.png" alt="master"></a>
-        <img src="../img/foot/pay.png" alt="paypal"></a>
+        <img src="img/foot/banc.png" alt="boleto"></a>
+        <img src="img/foot/vis.png" alt="visa"></a>
+        <img src="img/foot/maste.png" alt="master"></a>
+        <img src="img/foot/pay.png" alt="paypal"></a>
         
 </div> 
 <a href="index.html"><i class="fa fa-arrow-circle-up fa-5x" aria-hidden="true"></i></a>

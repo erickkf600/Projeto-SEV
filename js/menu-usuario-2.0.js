@@ -1,5 +1,5 @@
 function abrirMenuUsuario() {
-  $("../login-usuario-2.0.php").slideToggle("slow");
+  $("barra-usuario").slideToggle("slow");
 }
 
 function controlePreenchimento() {

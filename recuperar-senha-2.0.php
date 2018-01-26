@@ -19,11 +19,7 @@ include "includes/estatisticas-dispositivos.inc";
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <script src="js/recuperar-senha-2.0.js"></script>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-  .fa.fa-arrow-left{
-    margin-left: -200%;
-  }
-</style>
+
 <body style="background-image: url(css/fundo2.jpg);">
  <div class="container-fluid" style="text-align:center;">
 
@@ -54,7 +50,6 @@ if(isset($_GET['usuario'])) {
 } else {
   echo '
     <span style="float:right;"><a href="'.$pagina.'"><i class="fa fa-close"></i></a></span>
-    <span style="float:left;"><a href="login-usuario-2.0.php"><i class="fa fa-arrow-left"></i></a></span>
     <span id="caixa">
  <form id="formulario-email" name="recuperar" method="post" action="" onsubmit="return formCadastro();">
   <fieldset>

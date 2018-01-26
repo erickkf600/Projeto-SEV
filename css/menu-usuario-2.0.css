@@ -1,0 +1,67 @@
+/*Barra usuario*/
+#barra-usuario {
+position:absolute;
+left:0px;
+top:0px;
+right:0px;
+height:80px;
+background:#fff;
+color:#666;
+text-align:center;
+font-family: 'Spectral SC', serif;
+}
+#abrir-menu-usuario {
+font-size:20px;
+background:none;
+border:none;
+cursor:pointer;
+}
+
+@media screen and (min-width: 640px) {
+#menu-usuario {
+margin:auto;
+width:640px;
+display:none;
+text-align:center;
+background:#ddd;
+padding:20px;
+border-radius:10px;
+}
+li {
+display:inline;
+margin:10px;
+}
+}
+
+@media screen and (max-width: 640px) {
+#menu-usuario {
+margin:auto;
+width:250px;
+display:none;
+text-align:left;
+background:#ddd;
+border-radius:10px;
+padding-top:20px;
+padding-bottom:20px;
+}
+li {
+display:block;
+margin:10px;
+}
+.fa-globe {
+display:none;
+}
+}
+
+.entrada {
+width:100%;
+height:40px;
+}
+.enviar {
+width:100%;
+background:none;
+height:50px;
+margin-top:40px;
+border-radius:5px;
+border:1px solid blue;
+}
