@@ -205,8 +205,13 @@ if (isset($_SESSION['usuario'])) {
 <form>
   <input type="text" id="fname" name="fname" placeholder="Digite seu nome">
   <input class="e-mail" type="text" id="lname" name="lname" placeholder="Seu e-mail">
-  <button class="btn btn-danger" type="button" href="#">Enviar</button>
+  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+   Enviar
+  </button>
 </form>
+  <?php
+      include "includes/enviar.php"
+    ?>
 </ul>
 </form>
 
