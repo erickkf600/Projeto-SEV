@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<style>
 	body{
-		background-image: url(img/fundo2.jpg);
+		background-image: url(css/fundo2.jpg);
 	}
 
 	.container{
@@ -269,7 +269,7 @@ input[type=text] {
 	  </table>
 </section>
 <button class="btn btn-warning" type="button" href="finalizar.php" style="margin-left:71%; margin-top:-5%;">Finalizar Compra</button>
-<button class="btn btn-warning" type="button" href="#" style="margin-left:60%; margin-top:-7.5%;">Continuar comprando</button>
+<button class="btn btn-warning" type="button" href="index.php" style="margin-left:60%; margin-top:-7.5%;">Continuar comprando</button>
 
  <ul class="under">
   <li class="barra"><a href="#">CONTATOS</a></li>
