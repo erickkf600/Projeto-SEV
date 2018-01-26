@@ -268,7 +268,7 @@ input[type=text] {
 		
 	  </table>
 </section>
-<button class="btn btn-warning" type="button" href="#" style="margin-left:71%; margin-top:-5%;">Finalizar Compra</button>
+<button class="btn btn-warning" type="button" href="finalizar.php" style="margin-left:71%; margin-top:-5%;">Finalizar Compra</button>
 <button class="btn btn-warning" type="button" href="#" style="margin-left:60%; margin-top:-7.5%;">Continuar comprando</button>
 
  <ul class="under">
